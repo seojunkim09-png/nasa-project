@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 # 페이지 기본 설정
 st.set_page_config(page_title="NASA 근지구 소행성 대시보드", page_icon="☄️", layout="wide")
 
-# NASA API 설정 (DEMO_KEY 사용)
-API_KEY = "DEMO_KEY"
+# NASA API 설정 
+API_KEY = "TbwfwJLcBwMRGhWLQBDGncrDqkP6tcMkFkm6QGJqㅇ"
 NEO_URL = "https://api.nasa.gov/neo/rest/v1/feed"
 
 @st.cache_data(ttl=3600) # 1시간 동안 데이터 캐싱 (API 호출 제한 방지)
